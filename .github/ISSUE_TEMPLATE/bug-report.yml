@@ -1,5 +1,5 @@
 name: Bug report
-
+description: "File to report bug."
 labels: "bug"
 title: "BUG: "
 
