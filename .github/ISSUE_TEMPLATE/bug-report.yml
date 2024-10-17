@@ -26,10 +26,6 @@ body:
 - type: textarea
   attributes:
     label: "Package versions:"
-    value: |
-      package 1: 
-      pacakage 2:
-      ...
     validations:
       required: true
       
