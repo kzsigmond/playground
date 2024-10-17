@@ -1,0 +1,23 @@
+name: Feature Request
+description: "template to report feature request."
+labels: "enhancement"
+title: "ENH: "
+
+body:
+- type: textarea
+  attributes:
+    label: "Describe the new feature:"
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: "How would you implement this feature?"
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: "Additional comments:"
+  validations:
+    required: false
