@@ -1,0 +1,41 @@
+name: Bug report (yml-version)
+about: This is for filing a bug report. 
+
+labels: "bug"
+title: "BUG: "
+
+body:
+  - type: textarea
+    attributes: 
+      label: "Describe the problem:"
+    validations:
+      required: true
+      
+  - type: textarea
+    attributes:
+      label: "Code that reproduces the bug:"
+      render: python
+    validations:
+      required: true
+      
+  - type: textarea
+    attributes:
+      label: "Traceback error:"
+      descripitons: "Please paste the generated error here."
+      render: shell
+    validations:
+      required: true
+      
+  - type: textarea
+    attributes:
+      label: "Package versions:"
+      value: |
+        package 1: 
+        pacakage 2:
+        ...
+      validations:
+        required: true
+        
+  - type: textarea
+    attributes: 
+      label: "Additonal comments"
