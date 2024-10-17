@@ -19,15 +19,15 @@ body:
 - type: textarea
   attributes:
     label: "Traceback error:"
-    descripitons: "Please paste the generated error here."
+    descripiton: "Please paste the generated error here."
   validations:
     required: true
     
 - type: textarea
   attributes:
     label: "Package versions:"
-    validations:
-      required: true
+  validations:
+    required: true
       
 - type: textarea
   attributes: 
