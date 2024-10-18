@@ -26,6 +26,9 @@ body:
 - type: textarea
   attributes:
     label: "Package versions:"
+    placeholder: |
+      python:
+      numpy:
   validations:
     required: true
       
